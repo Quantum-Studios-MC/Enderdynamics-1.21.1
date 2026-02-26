@@ -12,7 +12,6 @@
 # 3. WHITELISTED CONTENTS (Allow files inside the folders above)
 !kubejs/**
 !defaultconfig/**
-!config/**
 !docs/**
 !.github/**
 !.vscode/**
