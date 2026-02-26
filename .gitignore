@@ -1,0 +1,39 @@
+# 1. ROOT STRATEGY: Ignore everything by default
+*
+
+# 2. WHITELISTED DIRECTORIES (Un-ignore these folders)
+!kubejs/
+!defaultconfig/
+!config/
+!docs/
+!.github/
+!.vscode/
+
+# 3. WHITELISTED CONTENTS (Allow files inside the folders above)
+!kubejs/**
+!defaultconfig/**
+!config/**
+!docs/**
+!.github/**
+!.vscode/**
+
+# 4. WHITELISTED ROOT FILES (Specific files to keep in the root)
+!package-lock.json
+!package.json
+!.gitignore
+
+# 5. RE-IGNORE RULES (Block specific junk inside the whitelisted folders)
+# -- KubeJS specific junk --
+#
+
+# -- VS Code specific junk (Keep settings, ignore local user state) --
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/probe.code-snippets
+
+# -- Config specific junk --
+
+
+# Keep .gitignore itself
+!.gitignore
