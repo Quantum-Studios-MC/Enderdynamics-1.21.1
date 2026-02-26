@@ -11,10 +11,7 @@
 
 # 3. WHITELISTED CONTENTS (Allow files inside the folders above)
 !kubejs/**
-!defaultconfig/**
-!docs/**
-!.github/**
-!.vscode/**
+
 
 # 4. WHITELISTED ROOT FILES (Specific files to keep in the root)
 !package-lock.json
