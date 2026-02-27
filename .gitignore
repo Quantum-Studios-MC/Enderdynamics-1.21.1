@@ -17,7 +17,7 @@ modlist.html
 !flame/
 !minecraft/config*
 !minecraft/defaultconfigs*
-!minecraft/kubejs*
+!minecraft/kubejs/
 !minecraft/config/emi.json
 !minecraft/config/icon.png
 !minecraft/*pakku*
