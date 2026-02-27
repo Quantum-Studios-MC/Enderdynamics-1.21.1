@@ -7,18 +7,34 @@
 # 3. WHITELISTED CONTENTS (Allow files inside the folders above)
 
 # 4. WHITELISTED ROOT FILES (Specific files to keep in the root)
-!pakku.toml
-!pakku.lock
+!.gitignore
+instance.cfg
+mmc-pack.json
+modlist.html
 
 # 5. RE-IGNORE RULES (Block specific junk inside the whitelisted folders)
-# -- KubeJS specific junk --
-#
-
-# -- VS Code specific junk (Keep settings, ignore local user state) --
-
-
-# -- Config specific junk --
-
+!minecraft/build/
+!flame/
+!minecraft/config*
+!minecraft/defaultconfigs*
+!minecraft/kubejs*
+!minecraft/config/emi.json
+!minecraft/config/icon.png
+!minecraft/*pakku*
+!minecraft/ldlib*
+!minecraft/.pakku/docs
+!minecraft/config/alexsmobs/*
+!minecraft/config/worldedit*
+!minecraft/config/jei*
+!minecraft/config/embeddium-options.json
+!minecraft/config/spark/tmp*
+!minecraft/config/everycomp-hazardous.properties
+!minecraft/config/konkrete/locals
+!minecraft/config/emi.css
+!minecraft/config/ae2/client.json
+!minecraft/config/spark/activity.json
+!minecraft/config/embeddium-fingerprint.json
+!minecraft/kubejs/*/example.js
+!minecraft/config/structurify/structurify_backup*
 
 # Keep .gitignore itself
-!.gitignore
