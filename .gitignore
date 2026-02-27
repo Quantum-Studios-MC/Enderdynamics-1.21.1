@@ -8,6 +8,7 @@
 
 # 4. WHITELISTED ROOT FILES (Specific files to keep in the root)
 !.gitignore
+!CONTRIBUTING.md
 instance.cfg
 mmc-pack.json
 modlist.html
