@@ -2,12 +2,13 @@
 *
 
 # 2. WHITELISTED DIRECTORIES (Un-ignore these folders)
-
+!minecraft/
 
 # 3. WHITELISTED CONTENTS (Allow files inside the folders above)
 
 # 4. WHITELISTED ROOT FILES (Specific files to keep in the root)
-
+!pakku.toml
+!pakku.lock
 
 # 5. RE-IGNORE RULES (Block specific junk inside the whitelisted folders)
 # -- KubeJS specific junk --
